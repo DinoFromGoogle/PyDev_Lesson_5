@@ -29,9 +29,9 @@ while do_this:
     print(dm.decompose_on_prime(num))
 
     print()
-    print("Продолжить? (1 - Да)")
+    print("Продолжить? (Yes - y) (Exit - Press any key...")
     d = int(input())
 
-    if d != 1:
+    if d != "y":
         do_this = False
         print("Всего доброго, ждём Вас снова!")
