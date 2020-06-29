@@ -30,7 +30,7 @@ while do_this:
 
     print()
     print("Продолжить? (Yes - y) (Exit - Press any key...")
-    d = int(input())
+    d = input()
 
     if d != "y":
         do_this = False
